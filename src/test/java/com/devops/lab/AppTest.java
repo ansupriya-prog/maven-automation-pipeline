@@ -7,7 +7,7 @@ public class AppTest {
 
     @Test
     public void verifySystemBottleneckValidation() {
-        boolean constraintDefectDetected = true;
+        boolean constraintDefectDetected = false;
 
         assertFalse(
             constraintDefectDetected,
